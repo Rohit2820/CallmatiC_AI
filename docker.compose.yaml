@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  callmatic:
+    tty: true
+    working_dir: /app
+    container_name: callmatic
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+    ports:
+      - '14446:3000'
+    networks:
+      - callmatic
+
+networks:
+  callmatic:
+    driver: bridge

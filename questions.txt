@@ -1,0 +1,1 @@
+what is your name ?:6 , How old are you ?:3, What is your employment status?:3,Have you ever taken a credit card loan ?:2, What changes or improvements would you suggest for the credit card loan service?:1, Thankyou Survey completed?:2

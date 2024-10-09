@@ -8,9 +8,9 @@ from flask_cors import CORS  # Import CORS module
 app = Flask(__name__)
 CORS(app)  
 
-account_sid = "AC983e0b4c1afbefcd9e72a4343bfa3f85"   #"AC808494874d5f826ac0af22eb863f4f25"
-auth_token = "9dfa426e50c4254ac84b661b249de823"      #"e6c7fd3628398ea5a9a61f7959beae71"
-twilio_phone_number = "+17122275889" 
+account_sid = "Your Twilio account sid"
+auth_token = "Your Twilio Auth_token"
+twilio_phone_number = "Your Twilio Phone Number"
 
 client = Client(account_sid, auth_token)
    
